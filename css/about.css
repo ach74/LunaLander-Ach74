@@ -7,14 +7,14 @@ body,html{
 body {
 	background-image: url("../img/Fondo.png");
 }
-p,h3{
+p,h3,ul{
 	text-align: left;
 }
 
 #centro{
 	display: block; /*inline-block*/
 	position: absolute;
-    height: 50%;
+    height: auto;
     width: 70%;
     left: 15%;
 	z-index: 5;
@@ -41,5 +41,4 @@ p,h3{
 	margin: 80px;
 	width: 80%;
 	height: auto;
-	background-color: red;
 }
