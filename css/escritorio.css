@@ -1,0 +1,337 @@
+body,html{
+	padding:0px;
+	margin:0px;
+	height: 100%;
+	font-family: Comic Sans MS;
+}
+body {
+	background-image: url("../img/Fondo.png");
+}
+.izq{
+	background-color:none;
+}
+.centro{
+	background-color:none;
+}
+
+.der{
+	background-color:none;
+	display:block;
+}
+
+.izq,.centro,.der{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+
+#MoonZone{
+	bottom:0px;
+	left:18%;
+	height:30%;
+	width:65%;
+	position:fixed;
+}
+
+#luna{
+	height: 100%; 
+	width: 100%;
+}
+
+#nave{
+	text-align: center;
+	z-index: 5;
+	position:fixed;
+	top:5%;
+	width:100%;
+	height:20%;
+}
+
+#imgNave{
+	height:100%;
+	display: block;
+	margin: auto;
+}
+
+#imgMotor{
+	height: 100%;
+	display: none;
+	margin: auto;
+}
+
+.controles{ /*controles*/
+	width: auto; height: auto; 
+	max-width: 200px;
+	margin: 10px;
+	width: 100%;
+	border-style: outset;
+	font-size: 150%;
+	padding: 5px;
+	margin-bottom: 15px;
+	border-radius: 20px;
+}
+
+#cpanel{}
+
+#fuel{
+	width: auto; height:300px; 
+	max-width: 200px;
+	margin: 10px;
+	width: 100%;
+	border-style: outset;
+	font-size: 150%;
+	padding: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	position: relative;
+	border-radius: 20px;
+}
+#gastofuel{
+	max-height: 98%;
+	min-height: 0%;
+	height:100%; 
+	max-width: 50px;
+	background-color: rgb(171, 179, 195);
+	width: 100%;
+	border-style: outset;
+	font-size: 150%;
+	margin-left: 72px;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 20px;
+}
+
+
+#BotonPlay{
+	padding: 3px;
+	display: inline-block;
+	float: right;
+	margin-top: 5%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/Play.png");
+	background-repeat: no-repeat;
+	background-size: 67%;
+	background-position: 50% 50%;
+}
+
+#BotonPause{
+	padding: 3px;
+	display: none;
+	float: right;
+	margin-top: 5%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/Pause.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+
+#BotonReiniciar{
+	padding: 3px;
+	display: inline-block;
+	float: right;
+	margin-top: 5%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/Replay.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+#BotonAjustes{
+	padding: 3px;
+	display: inline-block;
+	float: right;
+	margin-top: 5%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/Ajustes.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+#BotonAyuda{
+	padding: 3px;
+	display: inline-block;
+	float: right;
+	margin-top: 5%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/ayuda.png");
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: 50% 50%;
+}
+#BotonSonido{
+	padding: 3px;
+	display: inline-block;
+	float: right;
+	margin-top: 5%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/sonido.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+
+#BotonMenu{
+	display: none;
+	float: right;
+	margin: 5px;
+	margin-top: 5%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/Menu.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+
+<<<<<<< HEAD
+/*Botones de propulcion */
+#BotonOn,#BotonOff{
+position:fixed;
+right: 0;
+bottom: 0px;
+width: 150px;
+}
+
+#BotonOff{
+	display: none;
+}
+#BotonOn{
+	display: inline-block;
+}
+
+#ajustes{
+	display: none; /*inline-block*/
+	position: absolute;
+    height: 45%;
+    width: 25%;
+    left: 35%;
+	z-index: 5;
+	top: 100px;
+	border-radius: 20px;
+	background-image: url("../img/Fondo-ajustes.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-color: black;
+	border:10px;
+	border-style: solid;
+	border-color:#CD6155;
+	text-align: center;
+}
+#cerrar{
+	top: 2px;
+	left: 2px;
+	width: 15%;
+	max-width: 50px;
+	position: absolute;
+}
+
+#Ayuda{
+	display: none; /*inline-block*/
+	position: absolute;
+    height: auto;
+    width: 50%;
+    left: 20%;
+	z-index: 5;
+	top: 100px;
+	border-radius: 20px;
+	background-image: url("../img/Fondo-ajustes.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-color: black;
+	border:5px;
+	border-style: solid;
+	border-color: #85929e;
+	text-align: center;
+}
+#loser{
+	display: none; /*inline-block*/
+	position: absolute;
+    height: auto;
+    width: 30%;
+    left: 34%;
+	z-index: 5;
+	top: 100px;
+	border-radius: 20px;
+	background-image: url("../img/Fondo-ajustes.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-color: black;
+	border:5px;
+	border-style: solid;
+	border-color: #85929e;
+	text-align: center;
+}
+#loser-gif,#winner-gif{
+	width: 30%;
+	height: 30%;
+	border-radius: 10px;
+}
+#VolverAintentar,#VolverAjugar{
+	border-radius: 10px;
+	background-color: #85929E;
+}
+#winner{
+	display: none; /*inline-block*/
+	position: absolute;
+    height: auto;
+    width: 30%;
+    left: 34%;
+	z-index: 5;
+	top: 100px;
+	border-radius: 20px;
+	background-image: url("../img/Fondo-ajustes.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-color: black;
+	border:5px;
+	border-style: solid;
+	border-color: #85929e;
+	text-align: center;
+}
+#SmartphoneMenu{
+	display: none;
+=======
+#fuel{
+
+	width: auto; height:300px; 
+	max-width: 200px;
+	background-color: rgb(255, 204, 204, 0.7);
+	margin: 10px;
+	width: 100%;
+	border-style: outset;
+	font-size: 150%;
+	padding: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	position: relative;
+}
+#gastofuel{
+	max-height: 100%;
+	min-height: 0%;
+	height:100%; 
+	max-width: 50px;
+	background-color: rgb(255, 204, 204);
+	width: 100%;
+	border-style: outset;
+	font-size: 150%;
+	margin-left: 50px;
+	position: absolute;
+	bottom: 0px;
+
+>>>>>>> dce3853efa1783322934b7eecaff3e8945146440
+}
