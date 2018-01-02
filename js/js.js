@@ -219,7 +219,7 @@ function moverNave(){
 
 	
 	//mover hasta que top sea un 70% de la pantalla
-	if (y<=73){ 
+	if (y<=72.9){ 
 		document.getElementById("nave").style.top = y+"%"; 
 		velocidad.innerHTML=siempreV.toFixed(2);
 		altura.innerHTML=siempreA.toFixed(2);
@@ -228,15 +228,8 @@ function moverNave(){
 
 	}
 
-	//parpadear luz cuendo este apunto de aterizar
-	if (y <= 60) {
-		document.getElementById("luna").src="img/Luna.png";
-	}else{
-		
-		document.getElementById("luna").src="img/Luna2.gif";
-	}
 	//Game over
-	 if (siempreA>=73) {
+	 if (siempreA>=72.9) {
 
 	 	if (siempreV<=5) {
 		document.getElementById("winner").style.display="inline-block";
