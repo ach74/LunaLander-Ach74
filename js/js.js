@@ -86,12 +86,18 @@ window.onload = function InicioJuego(){
 
 	document.getElementById('S-Sound').onclick=function(){Sonido_S();};
 	document.getElementById('NS-Sound').onclick=function(){NSonido_S();};
-
+	//Game Over
 	document.getElementById('VolverAJugar').onclick=function(){Restart();};
 
+	//Ir a about
+	document.getElementById('Abutton').onclick=function(){direccion();};
 
 
 
+}
+
+function direccion(){
+location.href='About.html';
 }
 
 function Sonido_S(){
