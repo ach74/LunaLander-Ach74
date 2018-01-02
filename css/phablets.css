@@ -30,16 +30,15 @@ body {
 #MoonZone{
 	bottom:0px;
 	left:18%;
-	height:36%;
+	height:30%;
 	width:65%;
 	position:fixed;
 }
 
 #luna{
-	height: 105%; 
+	height: 100%; 
 	width: 100%;
 }
-
 #nave{
 	text-align: center;
 	z-index: 5;
@@ -52,15 +51,15 @@ body {
 #imgNave{
 	height:auto;
 	width: auto;
-	max-width: 75px;
+	max-width: 88px;
 	display: block;
 	margin: auto;
 }
 
-#imgMotor{
+#imgCohete{
 	height:auto;
 	width: auto;
-	max-width: 75px;
+	max-width: 88px;
 	display: block;
 	margin: auto;
 	display: none;
@@ -69,7 +68,6 @@ body {
 
 .controles{ 
 	/*controles*/
-	background-color: red
 	width: auto; height: auto; 
 	max-width: 90px;
 	margin: 10px;
@@ -112,10 +110,23 @@ body {
     border-radius: 20px;
 }
 
-
+#BotonPlay:hover {
+	background-size: 90%;
+ 	-webkit-transform: rotate(-25deg);
+	-moz-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+}
+#BotonPlay:active {
+	background-size: 90%;
+	-webkit-transform: rotate(0.5deg);
+	-moz-transform: rotate(0.5deg);
+	transform: rotate(0.5deg);
+}
 #BotonPlay{
-	display: none;
-	float: right;
+	display: inline-block;
+	position: fixed;
+	right: 0;
+	top: 100px;
 	margin: 5px;
 	margin-top: 5%;
 	text-align: center;
@@ -128,9 +139,23 @@ body {
 	background-position: 50% 50%;
 }
 
+#BotonPause:hover {
+	background-size: 90%;
+ 	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
+	transform: rotate(25deg);
+}
+#BotonPause:active {
+	background-size: 90%;
+	-webkit-transform: rotate(0.5deg);
+	-moz-transform: rotate(0.5deg);
+	transform: rotate(0.5deg);
+}
 #BotonPause{
 	display: none;
-	float: right;
+	position: fixed;
+	right: 0;
+	top: 100px;
 	margin: 5px;
 	margin-top: 5%;
 	text-align: center;
@@ -145,40 +170,32 @@ body {
 
 #BotonReiniciar{
 	display: none;
-	float: right;
-	margin: 5px;
-	margin-top: 5%;
-	text-align: center;
-	font-size: 0%;
-	width: 70px;
-	height: 70px;
-	background-image: url("../img/Replay.png");
-	background-repeat: no-repeat;
-	background-size: 90%;
-	background-position: 50% 50%;
 }
 #BotonAjustes{
 	display: none;
-	float: right;
-	margin: 5px;
-	margin-top: 5%;
-	text-align: center;
-	font-size: 0%;
-	width: 70px;
-	height: 70px;
-	background-image: url("../img/Ajustes.png");
-	background-repeat: no-repeat;
-	background-size: 80%;
-	background-position: 50% 50%;
 }
 
+#BotonMenu:hover {
+	background-size: 90%;
+ 	-webkit-transform: rotate(-25deg);
+	-moz-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+}
+#BotonMenu:active {
+	background-size: 90%;
+	-webkit-transform: rotate(0.5deg);
+	-moz-transform: rotate(0.5deg);
+	transform: rotate(0.5deg);
+}
 #BotonMenu{
 	display: inline-block;
+	position: fixed;
 	float: right;
 	margin: 5px;
 	margin-top: 5%;
 	text-align: center;
 	font-size: 0%;
+	right: 0;
 	width: 70px;
 	height: 70px;
 	background-image: url("../img/Menu.png");
@@ -304,6 +321,13 @@ width: 100%;
     padding-top: 50px;
 }
 
+
+#S-Replay:hover {
+	background-color: rgb(171, 179, 195); 
+}
+#S-Replay:active {
+	border-style: inset;
+}
 #S-Replay{
 	width: 92%;
 	height: 80px;
@@ -321,6 +345,13 @@ width: 100%;
 	margin-bottom: 2px;
 	text-align: left; 
 	font-size: 250%;
+}
+
+#S-Help:hover {
+	background-color: rgb(171, 179, 195); 
+}
+#S-Help:active {
+	border-style: inset;
 }
 #S-Help{
 	width: 92%;
@@ -340,6 +371,13 @@ width: 100%;
 	text-align: left; 
 	font-size: 250%;
 }
+
+#S-Setting:hover {
+	background-color: rgb(171, 179, 195); 
+}
+#S-Setting:active {
+	border-style: inset;
+}
 #S-Setting{
 	width: 92%;
 	height: 80px;
@@ -358,6 +396,12 @@ width: 100%;
 	text-align: left; 
 	font-size: 250%;
 }
+#S-Sound:hover {
+	background-color: rgb(171, 179, 195); 
+}
+#S-Sound:active {
+	border-style: inset;
+}
 #S-Sound{
 	width: 92%;
 	height: 80px;
@@ -369,10 +413,36 @@ width: 100%;
 	border-style: outset;
 	border-radius: 10px;
 	border-color: silver;
-	display: block !important;
+	display: block;
 	color: black;
 	margin: 3%;
 	margin-bottom: 2px;
 	text-align: left; 
 	font-size: 250%;
 }
+#NS-Sound:hover {
+	background-color: rgb(171, 179, 195); 
+}
+#MS-Sound:active {
+	border-style: inset;
+}
+#NS-Sound{
+	width: 92%;
+	height: 80px;
+	background-image: url("../img/NoSonido.png");
+	background-repeat: no-repeat;
+	background-size: 70px;
+	background-position: 100% 45%;
+	background-color: rgba(240, 243, 244, 0.7); 
+	border-style: outset;
+	border-radius: 10px;
+	border-color: silver;
+	display: none;
+	color: black;
+	margin: 3%;
+	margin-bottom: 2px;
+	text-align: left; 
+	font-size: 250%;
+}
+
+

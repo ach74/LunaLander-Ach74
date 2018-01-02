@@ -7,6 +7,8 @@ body,html{
 body {
 	background-image: url("../img/Fondo.png");
 }
+h2{ 
+text-align: center; }
 .izq{
 	background-color:none;
 }
@@ -15,8 +17,10 @@ body {
 }
 
 .der{
+	position: fixed;
 	background-color:none;
 	display:block;
+	margin-top: 1%;
 }
 
 .izq,.centro,.der{
@@ -54,7 +58,7 @@ body {
 	margin: auto;
 }
 
-#imgMotor{
+#imgCohete{
 	height: 100%;
 	display: none;
 	margin: auto;
@@ -102,12 +106,21 @@ body {
 	border-radius: 20px;
 }
 
-
+#BotonPlay:hover {
+ 	background-size: 90%;
+ 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#BotonPlay:active {
+	background-size: 67%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
 #BotonPlay{
-	padding: 3px;
 	display: inline-block;
 	float: right;
-	margin-top: 5%;
 	text-align: center;
 	width: 70px;
 	height: 70px;
@@ -115,13 +128,26 @@ body {
 	background-repeat: no-repeat;
 	background-size: 67%;
 	background-position: 50% 50%;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+ 	-moz-transition: -moz-transform 0.1s ease-out;
+ 	transition: transform 0.1s ease-out;
 }
 
+#BotonPause:hover {
+ 	background-size: 95%;
+ 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#BotonPause:active {
+	background-size: 80%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
 #BotonPause{
-	padding: 3px;
 	display: none;
 	float: right;
-	margin-top: 5%;
 	text-align: center;
 	width: 70px;
 	height: 70px;
@@ -129,13 +155,26 @@ body {
 	background-repeat: no-repeat;
 	background-size: 80%;
 	background-position: 50% 50%;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+ 	-moz-transition: -moz-transform 0.1s ease-out;
+ 	transition: transform 0.1s ease-out;
 }
 
+#BotonReiniciar:hover {
+ 	background-size: 95%;
+ 	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#BotonReiniciar:active {
+	background-size: 80%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
 #BotonReiniciar{
-	padding: 3px;
 	display: inline-block;
 	float: right;
-	margin-top: 5%;
 	text-align: center;
 	width: 70px;
 	height: 70px;
@@ -143,12 +182,26 @@ body {
 	background-repeat: no-repeat;
 	background-size: 80%;
 	background-position: 50% 50%;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+ 	-moz-transition: -moz-transform 0.1s ease-out;
+ 	transition: transform 0.1s ease-out;
+}
+
+#BotonAjustes:hover {
+ 	background-size: 95%;
+ 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#BotonAjustes:active {
+	background-size: 80%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 #BotonAjustes{
-	padding: 3px;
 	display: inline-block;
 	float: right;
-	margin-top: 5%;
 	text-align: center;
 	width: 70px;
 	height: 70px;
@@ -156,12 +209,26 @@ body {
 	background-repeat: no-repeat;
 	background-size: 80%;
 	background-position: 50% 50%;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+ 	-moz-transition: -moz-transform 0.1s ease-out;
+ 	transition: transform 0.1s ease-out;
+}
+
+#BotonAyuda:hover {
+ 	background-size: 95%;
+ 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#BotonAyuda:active {
+	background-size: 80%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 #BotonAyuda{
-	padding: 3px;
 	display: inline-block;
 	float: right;
-	margin-top: 5%;
 	text-align: center;
 	width: 70px;
 	height: 70px;
@@ -169,12 +236,26 @@ body {
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-position: 50% 50%;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+ 	-moz-transition: -moz-transform 0.1s ease-out;
+ 	transition: transform 0.1s ease-out;
+}
+
+#BotonSonido:hover {
+ 	background-size: 95%;
+ 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#BotonSonido:active {
+	background-size: 80%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 #BotonSonido{
-	padding: 3px;
 	display: inline-block;
 	float: right;
-	margin-top: 5%;
 	text-align: center;
 	width: 70px;
 	height: 70px;
@@ -182,13 +263,43 @@ body {
 	background-repeat: no-repeat;
 	background-size: 80%;
 	background-position: 50% 50%;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+ 	-moz-transition: -moz-transform 0.1s ease-out;
+ 	transition: transform 0.1s ease-out;
+}
+
+
+#BotonSonidoNo:hover {
+ 	background-size: 95%;
+ 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#BotonSonidoNo:active {
+	background-size: 80%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+#BotonSonidoNo{
+	display: none;
+	float: right;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-image: url("../img/NoSonido.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+ 	-moz-transition: -moz-transform 0.1s ease-out;
+ 	transition: transform 0.1s ease-out;
 }
 
 #BotonMenu{
 	display: none;
 	float: right;
 	margin: 5px;
-	margin-top: 5%;
 	text-align: center;
 	width: 70px;
 	height: 70px;
@@ -217,9 +328,9 @@ width: 150px;
 	display: none; /*inline-block*/
 	position: absolute;
     height: 45%;
-    width: 25%;
-    left: 35%;
-	z-index: 5;
+    width: 45%;
+    left: 25%;
+    z-index: 5;
 	top: 100px;
 	border-radius: 20px;
 	background-image: url("../img/Fondo-ajustes.jpg");
@@ -228,7 +339,7 @@ width: 150px;
 	border-color: black;
 	border:10px;
 	border-style: solid;
-	border-color:#CD6155;
+	border-color:#85929e;
 	text-align: center;
 }
 #cerrar{
@@ -243,8 +354,8 @@ width: 150px;
 	display: none; /*inline-block*/
 	position: absolute;
     height: auto;
-    width: 50%;
-    left: 20%;
+    width: 70%;
+    left: 15%;
 	z-index: 5;
 	top: 100px;
 	border-radius: 20px;
@@ -255,7 +366,8 @@ width: 150px;
 	border:5px;
 	border-style: solid;
 	border-color: #85929e;
-	text-align: center;
+	text-align: left;
+	padding: 10px;
 }
 #loser{
 	display: none; /*inline-block*/
@@ -304,33 +416,10 @@ width: 150px;
 }
 #SmartphoneMenu{
 	display: none;
-=======
-#fuel{
-
-	width: auto; height:300px; 
-	max-width: 200px;
-	background-color: rgb(255, 204, 204, 0.7);
-	margin: 10px;
-	width: 100%;
-	border-style: outset;
-	font-size: 150%;
-	padding: 5px;
-	margin-bottom: 15px;
-	text-align: center;
-	position: relative;
 }
-#gastofuel{
-	max-height: 100%;
-	min-height: 0%;
-	height:100%; 
-	max-width: 50px;
-	background-color: rgb(255, 204, 204);
-	width: 100%;
-	border-style: outset;
-	font-size: 150%;
-	margin-left: 50px;
-	position: absolute;
-	bottom: 0px;
-
->>>>>>> dce3853efa1783322934b7eecaff3e8945146440
+#Facil,#Normal,#Difícil,#Imposible,#CambiarNave{
+	width: 100px;
+	height: auto;
+	background-color: #85929e;
+	border-radius: 5px;
 }
