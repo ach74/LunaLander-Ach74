@@ -3,6 +3,7 @@
 Juego terminado: https://rawgit.com/ach74/LunaLander-Ach74/master/index.html
 
 **Autor:** Achraf El Ouakili
+
 **Asignatura:** Lenguaje de marcas
 
 ## PROYECTO:
