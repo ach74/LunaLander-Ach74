@@ -8,73 +8,77 @@ Juego terminado: https://rawgit.com/ach74/LunaLander-Ach74/master/index.html
 
 ## PROYECTO:
 
-El objetivo final de este proyecto es desarollar un juego, en que una nave tiene que aterrizar en la luna, este mismo sera creado esteticamente con HTML y CSS. El desplazamiento de la nave y las funciones de los paneles de control estaran definidos en el JavaScript.
-El proyecto que he decidido desarollar ha sido el que diseñe al principio de este proyecto, pero añadiendo algunas modificaciones.
+El objetivo final de este proyecto es desarrollar un juego, en que una nave tiene que aterrizar en la luna, este mismo sera creado estéticamente con HTML y CSS. El desplazamiento de la nave y las funciones de los paneles de control estarán definidos en el JavaScript.
+El proyecto que he decidido desarrollar ha sido el que diseñe al principio de este proyecto, pero añadiendo algunas modificaciones.
 
-Este es el resultado final para la version de ordenador:
-![Imagen](img/screenshots/1.PNG)  
+Este es el resultado final para la versión de ordenador:
+![Imagen](img/screenshots/1.PNG)
 
-Y este es el resultado final para la version para mobiles:
-![Imagen](img/screenshots/2.PNG)  
+Y este es el resultado final para la versión para móviles:
+![Imagen](img/screenshots/2.PNG)
 
-## Explicacion:
+## Explicación:
 
-### Botones de la version para ordenador:
+### Botones de la versión para ordenador:
 
-Como se puede observar en la version para ordenadores tenemos una serie de opciones para interactuar con el juego:
-![Imagen](img/screenshots/3.PNG)  
+Como se puede observar en la versión para ordenadores tenemos una serie de opciones para interactuar con el juego:
+![Imagen](img/screenshots/3.PNG)
 
-* El primer boton siruado mas a la izquierda, es el de sonido. Una vez pulsado sonara una melodia que nos acompañara mientras jugamos.Por defecto el juego viene silenciado. Cuando pulsemos este boton tambien cambiara. Y pasaremos a tener otro que nos permitira silenciar el juego.
-Los botones que iran intercambiando entre si son los siguientes:
+* El primer botón situado más a la izquierda, es el de sonido. Una vez pulsado sonara una melodía que nos acompañara mientras jugamos. Por defecto el juego viene silenciado. Cuando pulsemos este boton tambien cambiara. Y pasaremos a tener otro que nos permitira silenciar el juego.
+Los botones que irán intercambiando entre si son los siguientes:
 
-![Imagen](img/Sonido.png) 
-![Imagen](img/NoSonido.png) 
+![Imagen](img/Sonido.png)
+![Imagen](img/NoSonido.png)
 
 * El siguiente es el de reinicio, con el podremos volver a empezar cuando queramos.
 
-* A continuacion viene el boton encargado de pausar el juego o ponerlo en marcha. Este boton ira alternando entre los dos estado segun lo pulsemos. Por defecto viene en pausa.
+* A continuación viene el botón encargado de pausar el juego o ponerlo en marcha. Este botón ira alternando entre los dos estado según lo pulsemos. Por defecto viene en pausa.
 
-![Imagen](img/Pause.png) 
-![Imagen](img/Play.png) 
+![Imagen](img/Pause.png)
+![Imagen](img/Play.png)
 
-* El boton que veremos a continuacion es el boton de "Ayuda" que nos abrira una pestaña donde nos explicara el juego.Panel que abrira es el siguiente:
+* El botón que veremos a continuación es el botón de "Ayuda" que nos abrirá una pestaña donde nos explicara el juego. Panel que abrirá es el siguiente:
 
-![Imagen](img/screenshots/4.PNG) 
+![Imagen](img/screenshots/4.PNG)
 
-Como podemos observar hay un boton el de "About" si le damos nos llevara a otra pagina donde nos ablaran un poco mas del juego.
+Como podemos observar hay un botón el de "About" si le damos nos llevara a otra pagina donde nos hablaran un poco más del juego.
 
-* Por ultimo tenemos el boton de "Ajustes", el cual una vez desplegado nos mostrara las siguientes funciones:
-![Imagen](img/screenshots/5.PNG) 
+* Por ultimo tenemos el botón de "Ajustes", el cual una vez desplegado nos mostrara las siguientes funciones:
 
-Como se muestra podremos cambiar la dificultat y la nave solo con hacer click. Al cambiar la nave, lo que se hace es ocultar la imagen de la nave que se esta mostrando, para poner en visible la que esta oculta. Y asi sucesivamente. Las nave con las cuales podremos jugar son las siguientes:
 
-![Imagen](img/Covete.png) 
-![Imagen](img/Nave.png) 
+![Imagen](img/screenshots/5.PNG)
 
-Si lo que queremos es cambiar la dificultat del juego, solo con elegir una de las opciones que se nos muestra vastara. Dependiendo el nivel de dificultat que eligamos el valor que influye sobre la gravedad aumentara o disminuira.
+Como se muestra podremos cambiar la dificultad y la nave solo con hacer click. Al cambiar la nave, lo que se hace es ocultar la imagen de la nave que sé está mostrando, para poner en visible la que está oculta. Y así sucesivamente. Las naves con las cuales podremos jugar son las siguientes:
 
-### Botones de la version para movil:
+![Imagen](img/Covete.png)
+![Imagen](img/Nave.png)
 
-Para la version movil tenemos menos botones en pantalla, un total de 2:
+Si lo que queremos es cambiar la dificultad del juego, solo con elegir una de las opciones que se nos muestra bastara. Dependiendo el nivel de dificultad que elijamos el valor que influye sobre la gravedad aumentara o disminuirá.
+
+### Botones de la versión para móvil:
+
+Para la versión móvil tenemos menos botones en pantalla, un total de 2:
 
 ![Imagen](img/screenshots/6.PNG)
 
-* El boton rojo, es el encargado de recoger todos los demas botones que teniamos en la version para ordenador. Una vez le demos se nos mostraran la mismas opciones que teniemos para ordenador pero recogidas en un recuadro que se mantiene oculto cuendo jugamos.
+* El botón rojo, es el encargado de recoger todos los demás botones que teníamos en la versión para ordenador. Una vez le demos se nos mostraran la mismas opciones que tenemos para ordenador pero recogidas en un recuadro que se mantiene oculto cuando jugamos.
 
-El panel que se nos va a desplegas es el siguiente:
+El panel que se nos va a desplegás es el siguiente:
+
+
 ![Imagen](img/screenshots/7.PNG)
 
-Como podemos obsevar tenemos las mismas opciones que teniamos en la version de escritorio, con lo cual hacen las mismas funciones.
+Como podemos observar tenemos las mismas opciones que teníamos en la versión de escritorio, con lo cual hacen las mismas funciones.
 
-* El boton verde (Pause) hace lo mismo que en la version de escritorio. Controlar si el juego para detenerlo o no.
+* El botón verde (Pause) hace lo mismo que en la versión de escritorio. Controlar si el juego para detenerlo o no.
 
 ### Indicadores:
 
-En las dos versiones tenemos los mismos indicadores solo que en kla version para moviles, la anchura se hace un poco mas pequena. Los indicadores son los siguientes :
+En las dos versiones tenemos los mismos indicadores solo que en la versión para móviles, la anchura se hace un poco más pequeña. Los indicadores son los siguientes :
 
 ![Imagen](img/screenshots/8.PNG)
 
-* El indicador de velocidad nos marcara a que velocidad estamos cayendo, o por su contrario ascendidiendo.
+* El indicador de velocidad nos marcara a que velocidad estamos cayendo, o por su contrario ascendiendo.
 
 * El indicador de altura nos marcara cuenta distancia estamos cayendo.
 
@@ -82,22 +86,24 @@ En las dos versiones tenemos los mismos indicadores solo que en kla version para
 
 ### Otros elementos:
 
-* Cuando interactuemeos con algun elemnto que nos vaya a mostrar informacion o mas opciones, como por ejemplo la opcion de "Ayuda", tenemos un boton situado en la parte superior izquierda, que nos permite volver atras, o mas bien hacer que desaparesca el elemto que hemos abierto.
+* Cuando interactuemos con algún elemento que nos vaya a mostrar información o más opciones, como por ejemplo la opción de "Ayuda", tenemos un botón situado en la parte superior izquierda, que nos permite volver atrás, o más bien hacer que desaparezca el elemento que hemos abierto.
 
-El boton es el siguiente:
+El botón es el siguiente:
 ![Imagen](img/x.png)
 
-* Otro boton muy importante es el boton para propulsar la nave, en este caso tiene aspecto de palanca, y solo propulsa la nave cuando estoms pulsando en el. Este boton se mantiene automaticamente apagado cuendo no es usado o cuando el juego a finalizado. Ademas de que cambia de aspecto segun lo pulsemos o no.
+* Otro botón muy importante es el botón para propulsar la nave, en este caso tiene aspecto de palanca, y solo propulsa la nave cuando estos pulsando en él, este botón se mantiene automáticamente apagado cuando no es usado o cuando el juego ha finalizado. Ademas de que cambia de aspecto según lo pulsemos o no.
 
-Aqui le muestro sus dos estados:
-
+Aquí le muestro sus dos estados:
+Botón sin ser pulsado:
 ![Imagen](img/BotonOff.png)
+
+Botón pulsado:
 ![Imagen](img/BotonOn.png)
 
 ## Inicio del juego
 
-Una vez iniciemos el juego la nave ira descendiendo dependiendo de la dificultat elegida. Y para controlar dicho descenso tenemos el boton de propulsion que cada ver que lo pulsemo la imagen de la nave cambiara a un gif, que nos dara la imprecion de que esta desprenssiedo fuego. Dichos gif son lo siguientes:
+Una vez iniciemos el juego la nave ira descendiendo dependiendo de la dificultad elegida. Y para controlar dicho descenso tenemos el botón de propulsión que cada ver que lo pulsemos la imagen de la nave cambiara a un "GIF", que nos dará la impresión de que esta desprendiendo fuego. Dichos "GIF" son los siguientes:
 
-![Imagen](img/Covete2.gif) 
-![Imagen](img/Nave2.gif) 
+![Imagen](img/Covete2.gif)
+![Imagen](img/Nave2.gif)
 
