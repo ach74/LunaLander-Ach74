@@ -89,15 +89,18 @@ En las dos versiones tenemos los mismos indicadores solo que en la versión para
 * Cuando interactuemos con algún elemento que nos vaya a mostrar información o más opciones, como por ejemplo la opción de "Ayuda", tenemos un botón situado en la parte superior izquierda, que nos permite volver atrás, o más bien hacer que desaparezca el elemento que hemos abierto.
 
 El botón es el siguiente:
+
 ![Imagen](img/x.png)
 
 * Otro botón muy importante es el botón para propulsar la nave, en este caso tiene aspecto de palanca, y solo propulsa la nave cuando estos pulsando en él, este botón se mantiene automáticamente apagado cuando no es usado o cuando el juego ha finalizado. Ademas de que cambia de aspecto según lo pulsemos o no.
 
 Aquí le muestro sus dos estados:
 Botón sin ser pulsado:
+
 ![Imagen](img/BotonOFF.png)
 
 Botón pulsado:
+
 ![Imagen](img/BotonON.png)
 
 ## Inicio del juego
