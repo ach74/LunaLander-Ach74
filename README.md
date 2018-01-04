@@ -95,10 +95,10 @@ El botón es el siguiente:
 
 Aquí le muestro sus dos estados:
 Botón sin ser pulsado:
-![Imagen](img/BotonOff.png)
+![Imagen](img/BotonOFF.png)
 
 Botón pulsado:
-![Imagen](img/BotonOn.png)
+![Imagen](img/BotonON.png)
 
 ## Inicio del juego
 
