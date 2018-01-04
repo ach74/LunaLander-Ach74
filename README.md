@@ -104,6 +104,6 @@ Botón pulsado:
 
 Una vez iniciemos el juego la nave ira descendiendo dependiendo de la dificultad elegida. Y para controlar dicho descenso tenemos el botón de propulsión que cada ver que lo pulsemos la imagen de la nave cambiara a un "GIF", que nos dará la impresión de que esta desprendiendo fuego. Dichos "GIF" son los siguientes:
 
-![Imagen](img/Covete2.gif)
+![Imagen](img/Covete2.GIF)
 ![Imagen](img/Nave2.gif)
 
