@@ -27,13 +27,18 @@ Como se puede observar en la version para ordenadores tenemos una serie de opcio
 * El siguiente es el de reinicio, con el podremos volver a empezar cuando queramos.
 
 * A continuacion viene el boton encargado de pausar el juego o ponerlo en marcha. Este boton ira alternando entre los dos estado segun lo pulsemos. Por defecto viene en pausa.
+
 ![Imagen](img/Pause.png) 
 ![Imagen](img/Play.png) 
+
 * El boton que veremos a continuacion es el boton de "Ayuda" que nos abrira una pestaña donde nos explicara el juego.Panel que abrira es el siguiente:
 ![Imagen](img/screenshots/4.PNG) 
 Como podemos observar hay un boton el de "About" si le damos nos llevara a otra pagina donde nos ablaran un poco mas del juego.
 
 * Por ultimo tenemos el boton de "Ajustes", el cual una vez desplegado nos mostrara las siguientes funciones:
 ![Imagen](img/screenshots/5.PNG) 
-Como se muestra podremos cambiar la dificultat y la nave.
+Como se muestra podremos cambiar la dificultat y la nave solo con hacer click. Al cambiar la nave, lo que se hace es ocultar la imagen de la nave que se esta mostrando, para poner en visible la que esta oculta. Y asi sucesivamente. Las nave con las cuales podremos jugar son las siguientes:
+
+![Imagen](img/Covete.png) 
+![Imagen](img/Nave.png) 
 
