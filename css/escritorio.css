@@ -327,7 +327,8 @@ width: 150px;
 #ajustes{
 	display: none; /*inline-block*/
 	position: absolute;
-    height: 45%;
+    height: auto;
+	padding: 20px;
     width: 45%;
     left: 25%;
     z-index: 5;
