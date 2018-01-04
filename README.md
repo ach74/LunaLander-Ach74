@@ -22,7 +22,11 @@ Y este es el resultado final para la version para mobiles:
 Como se puede observar en la version para ordenadores tenemos una serie de opciones para interactuar con el juego:
 ![Imagen](img/screenshots/3.PNG)  
 
-* El primer boton siruado mas a la izquierda, es el de sonido. Una vez pulsado sonara una melodia que nos acompañara mientras jugamos.Por defecto el juego viene silenciado.
+* El primer boton siruado mas a la izquierda, es el de sonido. Una vez pulsado sonara una melodia que nos acompañara mientras jugamos.Por defecto el juego viene silenciado. Cuando pulsemos este boton tambien cambiara. Y pasaremos a tener otro que nos permitira silenciar el juego.
+Los botones que iran intercambiando entre si son los siguientes:
+
+![Imagen](img/Sonido.png) 
+![Imagen](img/NoSonido.png) 
 
 * El siguiente es el de reinicio, con el podremos volver a empezar cuando queramos.
 
