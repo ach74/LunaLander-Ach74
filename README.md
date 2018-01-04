@@ -39,7 +39,7 @@ Los botones que irán intercambiando entre si son los siguientes:
 
 * El botón que veremos a continuación es el botón de "Ayuda" que nos abrirá una pestaña donde nos explicara el juego. Panel que abrirá es el siguiente:
 
-![Imagen](img/screenshots/4.PNG)
+![Imagen](img/screenshots/4.png)
 
 Como podemos observar hay un botón el de "About" si le damos nos llevara a otra pagina donde nos hablaran un poco más del juego.
 
