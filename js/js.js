@@ -133,7 +133,7 @@ function otranave(){
 		document.getElementById("imgCohete").style.display="block";
 		NaveCambio=2;
 	}
-	else if (NaveCambio==2){
+	if (NaveCambio==2){
 		document.getElementById("imgCohete").style.display="none";
 		document.getElementById("imgCohete").style.display="block";
 		NaveCambio=1;
@@ -320,11 +320,13 @@ function pause(){
 	document.getElementById("BotonPause").style.display="none";
 }
 function reset(){
+
 	clearInterval(timer);
 	y = 0;
 	v = 0;
 	c = 100;
 	dt = 0.016683;
+	combustible.style.height = c +"%";
 	document.getElementById("BotonPause").style.display="none";
 	document.getElementById('BotonPlay').style.display="inline-block";
 	BotonOff();
@@ -332,6 +334,7 @@ function reset(){
 }
 
 function Restart(){
+
 	clearInterval(timer);
 		// VOLVER VARIABLE A ESTADO DE INCIO
 	y = 0;
@@ -340,6 +343,7 @@ function Restart(){
 	c = 100;
 	a = g;
 	dt = 0.016683;
+	combustible.style.height = c +"%";
 	document.getElementById("BotonPause").style.display="none";
 	document.getElementById('BotonPlay').style.display="inline-block";
 	play();
