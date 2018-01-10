@@ -61,7 +61,7 @@ Para la versión móvil tenemos menos botones en pantalla, un total de 2:
 
 ![Imagen](img/screenshots/6.PNG)
 
-* El botón rojo, es el encargado de recoger todos los demás botones que teníamos en la versión para ordenador. Una vez le demos se nos mostraran la mismas opciones que tenemos para ordenador pero recogidas en un recuadro que se mantiene oculto cuando jugamos.
+* El botón rojo, es el encargado de recoger todos los demás botones que teníamos en la versión para ordenador. Una vez le demos se nos mostraran la mismas opciones que tenemos para ordenador pero recogidas en un recuadro que se mantiene oculto cuando jugamos. Ademas de queuna ves le demos el juego de pausara.
 
 El panel que se nos va a desplegás es el siguiente:
 

@@ -415,7 +415,8 @@ width: 150px;
 	border-color: #85929e;
 	text-align: center;
 }
-#SmartphoneMenu{
+
+#S-Replay,#SmartphoneMenu,#S-Help,#S-Setting,#S-Sound,#NS-Sound,#cerrarMenu{
 	display: none;
 }
 #Facil,#Normal,#Difícil,#Imposible,#CambiarNave{

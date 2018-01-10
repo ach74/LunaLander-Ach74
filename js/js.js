@@ -119,6 +119,7 @@ function menu(){
 	document.getElementById("SmartphoneMenu").style.display="block";
 	closeHelp();
 	Closesettings();
+	pause();
 }
 function closemenu(){
 	document.getElementById("SmartphoneMenu").style.display="none";
@@ -240,7 +241,7 @@ function moverNave(){
 	 	if (siempreV<=5) {
 		document.getElementById("winner").style.display="inline-block";
 		}else{
-		document.getElementById("loser").style.display="inline-block";	
+		document.getElementById("loser").style.display="inline-block";
 		}
 	 }
 
