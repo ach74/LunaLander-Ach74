@@ -324,6 +324,7 @@ function reset(){
 	y = 0;
 	v = 0;
 	c = 100;
+	combustible.style.height = c +"%";
 	dt = 0.016683;
 	document.getElementById("BotonPause").style.display="none";
 	document.getElementById('BotonPlay').style.display="inline-block";
@@ -338,6 +339,7 @@ function Restart(){
 	v = 0;
 	g = 1.622;
 	c = 100;
+	combustible.style.height = c +"%";
 	a = g;
 	dt = 0.016683;
 	document.getElementById("BotonPause").style.display="none";
